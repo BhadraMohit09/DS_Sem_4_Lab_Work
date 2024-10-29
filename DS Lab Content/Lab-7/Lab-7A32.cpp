@@ -41,6 +41,26 @@ int Pop(){
 	return stack[top--];
 }
 
+//Perform Peep Operation
+int Peep(int position) {
+    if (top - position + 1 < 0) {
+        printf("Invalid position for PEEP...\n");
+        return -1;
+    } else {
+        return stack[top - position + 1];
+    }
+}
+
+//Perform Change Operation
+void Change(int position, int value) {
+    if (top - position + 1 < 0) {
+        printf("Invalid position for CHANGE...\n");
+    } else {
+        stack[top - position + 1] = value;
+        printf("Element at position %d changed to %d.\n", position, value);
+    }
+}
+
 //Display Elements of Stack
 void Display(){
 	if(isEmptyStack()){
@@ -63,6 +83,15 @@ int main(){
 	Push(15);
 	Push(75);
 	Push(32);
+
+	//Change 2nd element from Top to 100
+	Change(2,100);
+	
+	//Peep Operation on index #3
+	int peepValue = Peep(3);
+	if(peepValue != -1){
+		printf("Peeped value is => %d\n", peepValue);
+	}
 	
 	//Perform Pop
 	Pop();
