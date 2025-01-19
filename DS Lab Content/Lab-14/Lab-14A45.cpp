@@ -1,5 +1,5 @@
 //Lab-14
-//Perform Insertion operation at first, last and specific location of Linked List
+//Perform Insertion operation at first, last and specific location of Linked List.
 #include <stdio.h>
 #include <stdlib.h>
 
