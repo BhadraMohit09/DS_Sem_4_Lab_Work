@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Initialize Node structure to create list of nodes
+//Initialize Node structure to create list of nodes:
 struct Node {
 	int data;
 	struct Node* next;
