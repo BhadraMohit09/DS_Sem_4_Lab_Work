@@ -10,7 +10,7 @@ struct Node {
 };
 
 
-//Insert element at the first position of Linked list
+//Insert element at the first position of Linked list..
 void InsertAtFirst(struct Node** head, int data) { 
 
 	//Allocate the memory for the node created
