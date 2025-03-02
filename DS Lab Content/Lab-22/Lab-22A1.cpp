@@ -1,79 +1,72 @@
-//Lab-22
-//Implement Binary Search Algorithm
+// Lab-22
+// Implementing the Binary Search Algorithm in C
 
 #include <stdio.h>
 
-int main(){
-	
-	int size;
-	
-	//Ask and assign the size of Array
-	printf("Enter the size of Array:: ");
-	scanf("%d", &size);
-	
-	int array[size];
-	
-	printf("Enter array elements: \n");
-	
-	//Input user defined array elements
-	for(int i = 0; i < size; i++){
-		printf("Enter element #%d => ", i);
-		scanf("%d", &array[i]);
-	}
-	
-	//Ask user to search for the element
-	int value;
-	printf("Enter an element to search:: ");
-	scanf("%d", &value);
-	
-	//Apply sorting algorithm to make sure array is sorted
-	for(int i = 0; i < size - 1; i++){
-		for(int j = 0; j < size - i - 1; j++){
-			if(array[j] > array[j+1]){
-				int temp = array[j];
-				array[j] = array[j+1];
-				array[j+1] = temp;
-			}
-		}
-	}
-	
-	//Assign the left most value of array 
-	int low = 0;
-	//Assign the right most value of array
-	int high = size - 1;
-	//Take a flag to check if element is present in the array
-	int elementFound = -1;
-	
-	//Applying Binary Search Algorithm
-	//When value of lowest most element is lesser than the highest elenent of Array
-	while(low <= high){
-		
-		//Divide the array into two halves
-		int mid = (low + high)/2;
-		
-		//If value of middle element is equal to searched element
-		if(array[mid] == value){
-			elementFound = mid;
-			break;
-		}
-		
-		//When value of searching element is less than mid value
-		if(array[mid] < value){
-			low = mid + 1;
-		}
-		//When value of searching element is greater than mid value
-		else{
-			high = mid - 1;
-		}
-	}
-	
-	//Check if searched element is found
-	if(elementFound != -1){
-		printf("Element %d found at index => %d", value, elementFound);
-	}
-	//Display prompted input to the user upon false conditioning
-	else{
-		printf("Element not found or incorrect index...");
-	}
-	
+int main() {
+    int size;
+
+    // Ask and assign the size of the array
+    printf("Enter the size of the array: ");
+    scanf("%d", &size);
+
+    int array[size]; // Declare a dynamic array with user-defined size
+
+    printf("Enter array elements:\n");
+
+    // Input user-defined array elements
+    for (int i = 0; i < size; i++) {
+        printf("Enter element #%d => ", i);
+        scanf("%d", &array[i]);
+    }
+
+    // Ask the user to search for an element
+    int value;
+    printf("Enter an element to search: ");
+    scanf("%d", &value);
+
+    // Sorting the array using Bubble Sort (Binary Search requires a sorted array)
+    for (int i = 0; i < size - 1; i++) {
+        for (int j = 0; j < size - i - 1; j++) {
+            if (array[j] > array[j + 1]) {
+                int temp = array[j];  // Swap elements
+                array[j] = array[j + 1];
+                array[j + 1] = temp;
+            }
+        }
+    }
+
+    // Initializing Binary Search variables
+    int low = 0;           // Start index of the array
+    int high = size - 1;   // End index of the array
+    int elementFound = -1; // Flag to check if the element is found
+
+    // Binary Search Algorithm
+    while (low <= high) {
+        int mid = (low + high) / 2; // Calculate the middle index
+
+        // If the middle element matches the searched value
+        if (array[mid] == value) {
+            elementFound = mid; // Store the index of the found element
+            break; // Exit the loop as element is found
+        }
+
+        // If the search value is greater, ignore the left half
+        if (array[mid] < value) {
+            low = mid + 1;
+        }
+        // If the search value is smaller, ignore the right half
+        else {
+            high = mid - 1;
+        }
+    }
+
+    // Display search result
+    if (elementFound != -1) {
+        printf("Element %d found at index => %d\n", value, elementFound);
+    } else {
+        printf("Element not found or incorrect index...\n");
+    }
+
+    return 0; // Successful execution
 }
