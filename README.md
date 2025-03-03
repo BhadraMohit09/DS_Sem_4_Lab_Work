@@ -13,7 +13,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 
 ---
 
-## 📚 Key Data Structures Covered
+### 📚 Key Data Structures Covered
 
 ### 1. Arrays 📊
 
