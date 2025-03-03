@@ -15,7 +15,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 
 ### 📚 Key Data Structures Covered
 
-### 1. Arrays 📊
+#### 1. Arrays 📊
 
 * **Definition:** A collection of elements of the same data type stored in contiguous memory locations.
 * **Operations:** Insertion, deletion, searching, sorting.
