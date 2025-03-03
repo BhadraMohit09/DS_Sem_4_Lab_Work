@@ -23,7 +23,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 * **Visual Representation:**
     ![Array GIF](https://media.giphy.com/media/xT1R9Qf8u2663H94oU/giphy.gif)
 
-### 2. Linked Lists 🔗
+#### 2. Linked Lists 🔗
 
 * **Definition:** A linear data structure where elements are not stored in contiguous memory locations. Each element (node) contains a data part and a pointer to the next node.
 * **Types:** Singly linked lists, doubly linked lists, circular linked lists.
@@ -32,7 +32,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 * **Visual Representation:**
     ![Linked List GIF](https://media.giphy.com/media/jUo32HjKq4Y7e/giphy.gif)
 
-### 3. Stacks 🥞
+#### 3. Stacks 🥞
 
 * **Definition:** A LIFO (Last-In-First-Out) data structure.
 * **Operations:** Push, pop, peek.
@@ -40,7 +40,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 * **Visual Representation:**
     ![Stack GIF](https://media.giphy.com/media/26BRrSvJUa0crqw4E/giphy.gif)
 
-### 4. Queues ⏳
+#### 4. Queues ⏳
 
 * **Definition:** A FIFO (First-In-First-Out) data structure.
 * **Operations:** Enqueue, dequeue, peek.
@@ -48,7 +48,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 * **Visual Representation:**
     ![Queue GIF](https://media.giphy.com/media/3o6Zt8rGMbcYFjCPvW/giphy.gif)
 
-### 5. Trees 🌳
+#### 5. Trees 🌳
 
 * **Definition:** A hierarchical data structure consisting of nodes connected by edges.
 * **Types:** Binary trees, binary search trees, AVL trees, B-trees.
@@ -57,7 +57,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 * **Visual Representation:**
     ![Tree GIF](https://media.giphy.com/media/jUo32HjKq4Y7e/giphy.gif)
 
-### 6. Graphs 🌐
+#### 6. Graphs 🌐
 
 * **Definition:** A collection of nodes (vertices) connected by edges.
 * **Types:** Directed graphs, undirected graphs, weighted graphs.
@@ -68,7 +68,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 
 ---
 
-## 🛠️ Lab Activities
+### 🛠️ Lab Activities
 
 * **Implementation:** Write programs to implement each data structure from scratch.
 * **Problem Solving:** Solve coding problems that require the use of specific data structures.
@@ -78,7 +78,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 
 ---
 
-## 💡 Tips for Success
+### 💡 Tips for Success
 
 * **Practice Regularly:** Consistent practice is key to mastering data structures.
 * **Visualize:** Draw diagrams and visualize the data structures to better understand their behavior.
@@ -89,7 +89,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 
 ---
 
-## 💻 Tools and Technologies
+### 💻 Tools and Technologies
 
 * **Programming Languages:** C, C++, Python, Java
 * **Integrated Development Environments (IDEs):** VS Code, Code::Blocks, Eclipse, IntelliJ IDEA, PyCharm
@@ -97,6 +97,6 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 
 ---
 
-## 🚀 Let's Get Started!
+### 🚀 Let's Get Started!
 
 Embark on this exciting journey of learning and mastering data structures. With dedication and practice, you'll gain valuable skills that will benefit you in your future programming endeavors. Good luck! 🌟
