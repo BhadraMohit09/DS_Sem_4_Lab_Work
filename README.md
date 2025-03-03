@@ -4,7 +4,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 
 ---
 
-## 🎯 Objectives
+### 🎯 Objectives
 
 * **Understanding Fundamentals:** Grasp the core concepts of various data structures like arrays, linked lists, stacks, queues, trees, and graphs.
 * **Practical Implementation:** Learn to implement these data structures using programming languages (e.g., C, C++, Python, Java).
