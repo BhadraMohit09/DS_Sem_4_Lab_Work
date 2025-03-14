@@ -90,7 +90,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 
 ---
 
-### 💻 Tools and Technologies  
+#### 💻 Tools and Technologies  
 
 * **Programming Languages:** C, C++, Python, Java  
 * **Integrated Development Environments (IDEs):** VS Code, Code::Blocks, Eclipse, IntelliJ IDEA, PyCharm  
