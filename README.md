@@ -1,4 +1,4 @@
-## _DS-Sem4 Lab Work: Diving Deep into Data Structures_ 🅰️  
+#### _DS-Sem4 Lab Work: Diving Deep into Data Structures_ 🅰️  
 
 ![DS Subject](https://img.shields.io/badge/Data%20Structure-Click%20Here-blue?style=for-the-badge&logo=book&link=https://example.com/ds-subject)  
 ![Status](https://img.shields.io/badge/Status-Complete-red?style=for-the-badge)  
