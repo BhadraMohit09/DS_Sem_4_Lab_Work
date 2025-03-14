@@ -6,7 +6,7 @@
 
 ---
 
-### 📌 `Overview`  
+#### 📌 _`Overview`_  
 Welcome to the exciting world of Data Structures! This lab work is designed to provide you with a solid foundation in fundamental data structures, their applications, and hands-on programming experience.
 
 ---
