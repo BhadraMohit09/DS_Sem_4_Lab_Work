@@ -29,7 +29,7 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 * **Visual Representation:**  
     ![Array GIF](https://media.giphy.com/media/xT1R9Qf8u2663H94oU/giphy.gif)  
 
-#### 2. Linked Lists 🔗  
+#### 2. 'Linked Lists' 🔗  
 * **Definition:** A linear data structure where elements are not stored in contiguous memory locations. Each element (node) contains a data part and a pointer to the next node.  
 * **Types:** Singly linked lists, doubly linked lists, circular linked lists.  
 * **Operations:** Insertion, deletion, traversal.  
