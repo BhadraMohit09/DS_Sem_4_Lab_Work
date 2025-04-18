@@ -103,10 +103,9 @@ Welcome to the exciting world of Data Structures! This lab work is designed to p
 Embark on this exciting journey of learning and mastering data structures. With dedication and practice, you'll gain valuable skills that will benefit you in your future programming endeavors. Good luck! 🌟  
 
 ---
-```
+
 ### 🔗 Useful Links  
 
 - 📖 **[DS Subject Details](https://example.com/ds-subject)**  
 - ✅ **[Project Status: Complete](https://example.com/status-complete)**  
 - 💡 **[Contribute Here](https://example.com/contributions)**  
-```
